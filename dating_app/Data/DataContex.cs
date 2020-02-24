@@ -14,6 +14,7 @@ namespace dating_app.Data
         public DataContex(DbContextOptions<DataContex> options) : base(options)
         { }
             public DbSet<Values> Values { get; set; }
+            public DbSet<User> User {get; set;}
     
 }
     
